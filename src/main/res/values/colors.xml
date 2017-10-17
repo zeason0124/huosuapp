@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="bg_color_def">@color/bg_lowblack</color>
+    <!--线的颜色-->
+    <color name="line_gray">#cccccc</color>
+    <color name="line_lowgray">#e5e5e5</color>
+    <!--文字颜色-->
+    <color name="text_red">#ff3355</color>
+    <color name="white">#ffffff</color>
+    <color name="backgroud_white">#ffffff</color>
+    <color name="white_55">#55ffffff</color>
+    <color name="white_menu">#33ffffff</color>
+    <color name="text_black">#333333</color>
+    <color name="text_black_CC">#CC333333</color>
+    <color name="text_gray">#666666</color>
+    <color name="text_lowgray">#999999</color>
+    <color name="text_green">#0ab706</color>
+    <color name="black1">#2A2A2A</color>
+    <color name="bg_green_light">#cff1a6</color>
+    <color name="bg_green">#77CA51</color>
+    <color name="bg_green_drak_2">#55c71f</color>
+    <color name="bg_green_drak">#44a915</color>
+    <color name="bg_gray">#eeeeee</color>
+    <color name="bg_gray_ccc">#ccc</color>
+    <color name="bg_gray_a1">#a1a1a1</color>
+    <color name="bg_gray_f3">#f3f3f3</color>
+    <color name="bg_toast">#ff4A4A4A</color>
+
+    <color name="black">#000000</color>
+    <color name="low_red">#F7C0B9</color>
+    <color name="light_red">#f26958</color>
+    <color name="bg_gray_50">#50cccccc</color>
+    <color name="bg_lowblack">#35343a</color>
+    <color name="bg_black_80">#80000000</color>
+    <color name="province_line_border">#C7C7C7</color>
+    <color name="bg_common">#E7EAEF</color>
+    <color name="money_color">#FE782F</color>
+
+
+    <color name="text_common">#464646</color>
+    <color name="text_color">#56A7E0</color>
+    <color name="gray1">#C3C3C3</color>
+    <color name="green1">#199F5B</color>
+    <color name="tranparent">#00000000</color>
+    <color name="red1">#CC3636</color>
+    <color name="orange_5">#CC4300</color>
+    <color name="greens">#00c3ba</color>
+    <color name="gray_text">#B1B1B1</color>
+    <color name="cody_blg">#1a9df5</color>
+    <color name="gray">#7F7C7C</color>
+    <color name="cody_code_text">#9C9494</color>
+    <color name="download_text1">#A2A2A2</color>
+    <color name="download_game">#17a4e5</color>
+    <color name="green">#DBD7D7</color>
+    <color name="user_text">#FE782F</color>
+    <color name="white1">#f0f0f0</color>
+    <color name="green_1">#7F7F7F</color>
+    <color name="zixun_text">#1F1F1F</color>
+    <color name="zixun_text_1">#818181</color>
+    <color name="zixun_text_2">#323232</color>
+    <color name="home_text1">#555555</color>
+    <color name="home_text2">#A0A0A0</color>
+    <color name="orange_6">#FF5502</color>
+    <color name="cody_blg1">#49a7e6</color>
+    <color name="gray2">#DDDDDD</color>
+    <color name="white_ab">#ffffff</color>
+    <color name="transparent">#ffffff</color>
+    <color name="blue3">#21A6EF</color>
+    <color name="greenss">#00c3ba</color>
+    <color name="blue1">#8d8ff6</color>
+    <color name="orange_1">#FF7600</color>
+    <color name="color_gray_light_content_text">#5d5d5d</color>
+    <color name="color_divider_line_gray">#e2e2e2</color>
+    <color name="gray_white">#F8F8F8</color>
+</resources>

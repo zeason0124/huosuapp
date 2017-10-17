@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/et_reg_usname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dip"
+        android:layout_marginLeft="16dip"
+        android:layout_marginRight="16dip"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/ttw_edit_selector"
+        android:hint="账户号6-12位数字或字母，区分大小写"
+        android:padding="6dip"
+        android:singleLine="true"
+        android:maxLength="12"
+        android:textColorHint="#D1D1D1" />
+
+    <EditText
+        android:id="@+id/et_reg_uspwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dip"
+        android:layout_marginLeft="16dip"
+        android:layout_marginRight="16dip"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/ttw_edit_selector"
+        android:hint="密码6-12位数字或字母，区分大小写"
+        android:inputType="textPassword"
+        android:padding="6dip"
+        android:singleLine="true"
+        android:maxLength="12"
+        android:textColorHint="#D1D1D1" />
+
+    <EditText
+        android:id="@+id/et_repeat_uspsd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dip"
+        android:layout_marginLeft="16dip"
+        android:layout_marginRight="16dip"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/ttw_edit_selector"
+        android:hint="确认密码"
+        android:inputType="textPassword"
+        android:padding="6dip"
+        android:singleLine="true"
+        android:maxLength="12"
+        android:textColorHint="#D1D1D1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_yanzhengma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dip"
+            android:layout_marginLeft="16dip"
+            android:layout_marginRight="16dip"
+            android:background="@drawable/ttw_edit_selector"
+            android:hint="请输入右边验证码"
+            android:padding="6dip"
+            android:singleLine="true"
+            android:textColorHint="#D1D1D1" />
+
+        <ImageView
+            android:id="@+id/iv_showCode"
+            android:layout_width="90dp"
+            android:layout_height="match_parent" />
+        <!--
+                <TextView
+                    android:id="@+id/tv_huanyizhang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="换一张"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#65A8C6"
+                    />-->
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@mipmap/btn_copy_code"
+        android:gravity="center"
+        android:padding="12dip"
+        android:text="注册"
+        android:textColor="@color/white_ab"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_register_protocol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="注册即表示同意《7566游戏平台用户协议》"
+        android:textColor="#A5A5A5"
+        android:textSize="17dp" />
+</LinearLayout>

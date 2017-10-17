@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/et_phone"
+        android:layout_width="match_parent"
+        android:singleLine="true"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dip"
+        android:layout_marginLeft="16dip"
+        android:layout_marginRight="16dip"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/ttw_edit_selector"
+        android:hint="请输入手机号码 "
+        android:maxLength="12"
+        android:padding="6dip" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <EditText
+            android:id="@+id/et_auth_code"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dip"
+            android:layout_marginRight="16dip"
+            android:singleLine="true"
+            android:background="@drawable/ttw_edit_selector"
+            android:hint="请输入验证码"
+            android:maxLength="10"
+            android:padding="6dip" />
+        <Button
+                android:id="@+id/btn_getCode"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:text="获取验证码"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:background="@mipmap/money_btn1"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="25dp"
+                android:textSize="15dp"
+            />
+    </LinearLayout>
+    <EditText
+        android:id="@+id/et_phone_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dip"
+        android:layout_marginLeft="16dip"
+        android:layout_marginRight="16dip"
+        android:layout_marginTop="20dip"
+        android:singleLine="true"
+        android:inputType="textPassword"
+        android:background="@drawable/ttw_edit_selector"
+        android:hint="请输入新密码 "
+        android:maxLength="12"
+        android:padding="6dip" />
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@mipmap/btn_copy_code"
+        android:gravity="center"
+        android:padding="12dip"
+        android:text="注册"
+        android:textColor="@color/white_ab"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/tv_protocol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:text="注册即表示同意《7566游戏平台用户协议》"
+        android:layout_marginTop="20dp"
+        android:textColor="#A5A5A5"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

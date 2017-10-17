@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:packageNames="com.android.packageinstaller,com.google.android.packageinstaller,com.lenovo.safecenter"
+    android:description="@string/smart_install_accessibility_service_description"
+    android:accessibilityEventTypes="typeAllMask"
+    android:accessibilityFlags="flagDefault"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:canRetrieveWindowContent="true"
+    />
+    <!--
+    packageNames
+    指定我们要监听哪个应用程序下的窗口活动，这里写com.android.packageinstaller表示监听Android系统的安装界面。部分Android Rom可能替换了系统的安装器，具体需要自己适配。
+    description
+    指定在无障碍服务当中显示给用户看的说明信息。
+    accessibilityEventTypes
+    指定我们在监听窗口中可以接收哪些事件，例如长按，点击，窗口内容变化等等，这里写typeAllMask表示所有的事件都能模拟。
+    accessibilityFlags
+    可以指定无障碍服务的一些附加参数，传默认值flagDefault就行。
+    accessibilityFeedbackType
+    指定无障碍服务的反馈方式，类似语音，震动等等。实际上无障碍服务这个功能是Android提供给一些残疾人士使用的，比如说盲人不方便使用手机，就可以借助无障碍服务配合语音反馈来操作手机，而我们其实是不需要反馈的，因此随便传一个值就可以，这里传入feedbackGeneric(普通回馈)。
+    canRetrieveWindowContent
+    指定是否允许我们的程序读取窗口中的节点和内容，必须写true。
+    notificationTimeout
+    响应事件的时间间隔
+    -->

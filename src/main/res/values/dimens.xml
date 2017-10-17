@@ -1,0 +1,105 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="fab_margin">0dp</dimen>
+
+
+    <dimen name="size5">5dp</dimen>
+    <dimen name="size10">10dp</dimen>
+    <dimen name="size16">16sp</dimen>
+    <dimen name="size14">14sp</dimen>
+
+    <dimen name="size20">20dp</dimen>
+    <dimen name="size30">30dp</dimen>
+    <dimen name="size40">40dp</dimen>
+    <dimen name="size45">45dp</dimen>
+    <dimen name="size50">50dp</dimen>
+    <dimen name="size60">60dp</dimen>
+    <dimen name="size70">70dp</dimen>
+    <dimen name="size80">80dp</dimen>
+    <dimen name="size100">100dp</dimen>
+    <!--字体大小-->
+    <dimen name="text_title">18sp</dimen>
+    <dimen name="text_content">14sp</dimen>
+    <dimen name="text_hint">12sp</dimen>
+    <dimen name="text_normal">16sp</dimen>
+    <dimen name="text_20sp">20sp</dimen>
+    <dimen name="text_25sp">25sp</dimen>
+
+    <dimen name="padding">12dp</dimen>
+    <dimen name="padding16">16dp</dimen>
+    <dimen name="padding5">5dp</dimen>
+    <dimen name="list_item_height">45dp</dimen>
+    <dimen name="line_height">0.8dp</dimen>
+    <dimen name="input_height">50dp</dimen>
+
+
+    <!--h:高度  w:宽度   m:margin,padding 4维-->
+    <dimen name="h_1">1dp</dimen>
+    <dimen name="h_2">2dp</dimen>
+    <dimen name="h_4">4dp</dimen>
+    <dimen name="h_6">6dp</dimen>
+    <dimen name="h_8">8dp</dimen>
+    <dimen name="h_10">10dp</dimen>
+    <dimen name="h_12">12dp</dimen>
+    <dimen name="h_14">14dp</dimen>
+    <dimen name="h_18">18dp</dimen>
+    <dimen name="h_20">20dp</dimen>
+    <dimen name="h_24">24dp</dimen>
+    <dimen name="h_29">29dp</dimen>
+    <dimen name="h_32">32dp</dimen>
+    <dimen name="h_36">36dp</dimen>
+    <dimen name="h_42">42dp</dimen>
+    <dimen name="h_46">46dp</dimen>
+    <dimen name="h_48">48dp</dimen>
+    <dimen name="h_50">50dp</dimen>
+    <dimen name="h_55">55dp</dimen>
+    <dimen name="h_58">58dp</dimen>
+    <dimen name="h_70">70dp</dimen>
+    <dimen name="h_64">64dp</dimen>
+    <dimen name="h_72">72dp</dimen>
+    <dimen name="h_80">80dp</dimen>
+    <dimen name="h_100">100dp</dimen>
+    <dimen name="h_110">110dp</dimen>
+    <dimen name="h_150">150dp</dimen>
+    <dimen name="h_180">180dp</dimen>
+    <dimen name="h_196">196dp</dimen>
+    <dimen name="h_200">200dp</dimen>
+    <dimen name="h_210">210dp</dimen>
+    <dimen name="h_250">250dp</dimen>
+    <dimen name="h_300">300dp</dimen>
+
+    <dimen name="w_2">2dp</dimen>
+    <dimen name="w_4">4dp</dimen>
+    <dimen name="w_6">6dp</dimen>
+    <dimen name="w_8">8dp</dimen>
+    <dimen name="w_12">12dp</dimen>
+    <dimen name="w_16">16dp</dimen>
+    <dimen name="w_18">18dp</dimen>
+    <dimen name="w_24">24dp</dimen>
+    <dimen name="w_32">32dp</dimen>
+    <dimen name="w_36">36dp</dimen>
+    <dimen name="w_48">48dp</dimen>
+    <dimen name="w_50">50dp</dimen>
+    <dimen name="w_55">55dp</dimen>
+    <dimen name="w_58">58dp</dimen>
+    <dimen name="w_64">64dp</dimen>
+    <dimen name="w_72">72dp</dimen>
+    <dimen name="w_80">80dp</dimen>
+    <dimen name="w_100">100dp</dimen>
+    <dimen name="w_120">120dp</dimen>
+    <dimen name="w_150">150dp</dimen>
+    <dimen name="w_196">196dp</dimen>
+    <dimen name="w_200">200dp</dimen>
+    <dimen name="w_250">250dp</dimen>
+    <dimen name="w_300">300dp</dimen>
+
+    <dimen name="m_6">6dp</dimen>
+    <dimen name="m_8">8dp</dimen>
+    <dimen name="m_12">12dp</dimen>
+    <dimen name="m_18">18dp</dimen>
+    <dimen name="m_24">24dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+</resources>

@@ -1,0 +1,14 @@
+[
+  {
+    "paytype":"alipay",
+    "className":"AlipayHuoPayIml"
+  },
+  {
+    "paytype":"wftpay",
+    "className":"WftPayIml"
+  },
+  {
+    "paytype":"ecopay",
+    "className":"EcoPayIml"
+  }
+]

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="1dp"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_classify"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:scaleType="fitXY"
+            android:gravity="center"
+            android:visibility="gone"/>
+        <ImageView
+            android:id="@+id/iv_classify"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:scaleType="fitXY"
+            android:gravity="center"
+            android:visibility="visible"/>
+    </FrameLayout>
+
+</LinearLayout>
+

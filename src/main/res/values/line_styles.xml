@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="line_color">
+        <item name="android:background">@color/bg_gray</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.8dp</item>
+    </style>
+
+    <style name="line_color_drak">
+        <item name="android:background">@color/bg_gray_ccc</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.8dp</item>
+    </style>
+
+    <style name="line_color_drak_v">
+        <item name="android:background">@color/bg_gray_ccc</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">0.8dp</item>
+    </style>
+
+
+    <style name="line_color_v">
+        <item name="android:background">@color/bg_gray</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">0.8dp</item>
+    </style>
+
+</resources>

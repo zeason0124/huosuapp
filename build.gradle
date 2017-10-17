@@ -1,0 +1,27 @@
+apply plugin: 'com.android.application'
+apply plugin: 'android-apt'
+apply from: "../config/buildConfig.gradle"
+apply from: "../config/productFlavorsConfig.gradle"
+android {
+    defaultConfig {
+        applicationId "com.huosuapp.text"
+        versionCode 2
+        versionName "2.0"
+    }
+}
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile "com.jakewharton:butterknife:$rootProject.butterknife"
+    apt "com.jakewharton:butterknife-compiler:$rootProject.butterknife"
+    debugCompile "com.squareup.leakcanary:leakcanary-android:$rootProject.leakcanary"
+    releaseCompile "com.squareup.leakcanary:leakcanary-android-no-op:$rootProject.leakcanary"
+    testCompile "com.squareup.leakcanary:leakcanary-android-no-op:$rootProject.leakcanary"
+
+    compile 'com.github.liang530:BaseLib:1.2.0'
+    compile ("com.github.liang530:FileDownloader:$rootProject.filedownloader"){
+        exclude module: "okhttp"
+    }
+    compile 'com.zhy:flowlayout-lib:1.0.3'
+    compile 'com.ms-square:expandableTextView:0.1.4'
+    testCompile 'junit:junit:4.12'
+}

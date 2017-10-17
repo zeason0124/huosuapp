@@ -1,0 +1,8 @@
+<resources>
+    <!--<string name="app_name">HuoAppNew</string>-->
+    <string name="tasks_manager_demo_name" formatted="false">任务: %d</string>
+    <string name="register_protocol">注册即表示同意《%s平台用户协议》</string>
+    <string name="money_name">平台币:</string>
+    <string name="recharge_name">充值</string>
+    <string name="smart_install_accessibility_service_description">自动安装：可以在您安装应用时，无需您一直盯着手机，它会帮您点击所需的按钮，确保应用顺利安装。</string>
+</resources>

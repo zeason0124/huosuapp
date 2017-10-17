@@ -1,0 +1,188 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_common"
+    android:orientation="vertical">
+    <include
+        layout="@layout/include_common_title" />
+    <!-- 第一块，游戏应用 -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp">
+
+        <ScrollView
+            android:id="@+id/sv_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="40dip"
+            android:background="@android:color/white"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:paddingBottom="8dip"
+                    android:paddingTop="8dip">
+
+                    <ImageView
+                        android:id="@+id/iv_game_icon"
+                        android:layout_width="66dip"
+                        android:layout_height="66dip"
+                        android:layout_centerVertical="true"
+                        android:scaleType="fitXY"
+                        android:src="@mipmap/ic_launcher" />
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="6dip"
+                        android:layout_toRightOf="@id/iv_game_icon">
+
+
+                        <TextView
+                            android:id="@+id/tv_game_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@id/iv_game_icon"
+                            android:gravity="left"
+                            android:text=" 王者荣耀"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:id="@+id/tv_download_count"
+                                android:layout_width="0dip"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="left"
+                                android:text="下载：88888次"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:id="@+id/tv_size"
+                                android:layout_width="0dip"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="left"
+                                android:paddingLeft="10dip"
+                                android:text="大小：17.9M"
+                                android:textSize="14sp" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:id="@+id/tv_versions"
+                                android:layout_width="0dip"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="left"
+                                android:text="版本：1.0.2"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:id="@+id/tv_language"
+                                android:layout_width="0dip"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="left"
+                                android:paddingLeft="10dip"
+                                android:text="类型：中文    "
+                                android:textSize="14sp" />
+                        </TableRow>
+                    </TableLayout>
+                </RelativeLayout>
+                <!-- 第二块，游戏截图 -->
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rcy_game_imgs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dip"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="@color/bg_common" />
+                <!-- 第三块，游戏简介 -->
+
+                <LinearLayout
+                    android:id="@+id/rl_game_introduce"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingBottom="8dip"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip"
+                    android:paddingTop="8dip">
+
+                    <TextView
+                        android:layout_width="130dp"
+                        android:layout_height="35dp"
+                        android:layout_alignParentTop="true"
+                        android:gravity="center"
+                        android:text="游戏简介"
+                        android:textColor="@color/text_common" />
+                    <!-- sample xml -->
+                    <com.ms.square.android.expandabletextview.ExpandableTextView xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:expandableTextView="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/expand_text_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        expandableTextView:animDuration="200"
+                        expandableTextView:maxCollapsedLines="4">
+
+                        <TextView
+                            android:id="@id/expandable_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:textColor="#666666"
+                            android:textSize="14sp" />
+
+                        <ImageButton
+                            android:id="@id/expand_collapse"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right|bottom"
+                            android:background="@android:color/transparent"
+                            android:padding="16dp" />
+                    </com.ms.square.android.expandabletextview.ExpandableTextView>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="@color/bg_common" />
+            </LinearLayout>
+        </ScrollView>
+        <!-- 第五块，下载 -->
+        <com.huosuapp.text.view.DetailProgessLayoutView
+            android:id="@+id/detail_progressLayoutView"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="5dp"
+            android:background="@android:color/white"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+        </com.huosuapp.text.view.DetailProgessLayoutView>
+    </RelativeLayout>
+</LinearLayout>

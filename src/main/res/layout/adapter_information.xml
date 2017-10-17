@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:layout_marginBottom="0.8dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_infoImg"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/tv_infor_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/iv_infoImg"
+            android:maxLines="2"
+            android:text="米推荐一精品免费游戏【第37弹】"
+            android:textColor="#464646"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/tv_infot_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="2dp"
+            android:text="2016-08-26 20:44"
+            android:textColor="@color/zixun_text_1" />
+        <TextView
+            android:id="@+id/information_type"
+            android:layout_width="24dp"
+            android:layout_height="14dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="6dp"
+            android:layout_toRightOf="@id/tv_infot_time"
+            android:background="@drawable/shape_circle_rect_red"
+            android:gravity="center"
+            android:text="火爆"
+            android:textColor="@color/white1"
+            android:textSize="10sp" />
+    </RelativeLayout>
+</LinearLayout>
